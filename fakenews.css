@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: Garamond, charcoal;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#box1{
+	background-color:#aaa;
+}
+#box2{
+	background-color:#bbb;
+}
+#box3{
+	background-color:#ccc;
+}
+#head{
+	text-align: center;
+	background-color: black;
+	color:grey;
+}
+
+h5{
+	font-size:smaller;
+	margin-bottom:0;
+	margin-top:0;
+	padding:0;
+}
+
+img{
+vertical-align: text-top;
+width: 100%;
+}
