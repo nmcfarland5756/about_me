@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Garamond, charcoal;
+ 
 }
 .column {
     float: left;
@@ -26,6 +27,7 @@
 	text-align: center;
 	background-color: black;
 	color:grey;
+	font-size: x-large;
 }
 
 h5{
@@ -38,4 +40,10 @@ h5{
 img{
 vertical-align: text-top;
 width: 100%;
+}
+
+#subtitle {
+	font-size: large;
+	text-align:center;
+	background-color:grey;
 }
